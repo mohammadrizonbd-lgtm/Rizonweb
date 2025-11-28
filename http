@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizon এর ওয়েবসাইট</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 50px 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>স্বাগতম Rizon এর ওয়েবসাইটে</h1>
+        <nav>
+            <a href="#home">হোম</a>
+            <a href="#about">আমাদের সম্পর্কে</a>
+            <a href="#contact">যোগাযোগ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>হোম পেজ</h2>
+            <p>এটি একটি সহজ ওয়েবসাইটের উদাহরণ।</p>
+            <button onclick="greetUser()">আমাকে ক্লিক করুন</button>
+        </section>
+
+        <section id="about">
+            <h2>আমাদের সম্পর্কে</h2>
+            <p>আমি Rizon, ওয়েবসাইট বানানোর জন্য একটি ডেমো তৈরি করেছি।</p>
+        </section>
+
+        <section id="contact">
+            <h2>যোগাযোগ</h2>
+            <p>আপনি আমাকে ইমেইল করতে পারেন: rizon@example.com</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Rizon. সর্বস্বত্ব সংরক্ষিত।
+    </footer>
+
+    <script>
+        function greetUser() {
+            alert("Rizon, স্বাগতম আপনার ওয়েবসাইটে!");
+        }
+    </script>
+</body>
+</html>
