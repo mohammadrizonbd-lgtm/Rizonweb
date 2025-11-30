@@ -1,4 +1,25 @@
-http!DOCTYPE html>
+http!DOCTYPE html>DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizon এর ওয়েবসাইট</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
